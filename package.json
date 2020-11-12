@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress-expect run --passing 1 --failing 1 --pending 1"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bahmutov/cy-metaprogramming-example#readme",
   "devDependencies": {
-    "cypress": "5.6.0"
+    "cypress": "5.6.0",
+    "cypress-expect": "2.2.0"
   }
 }
